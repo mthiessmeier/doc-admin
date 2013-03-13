@@ -6,31 +6,31 @@
 <title>Creating your own themes</title>
 
 <para>
-You can create your own themes so as to use the layout you like in the OTRS web frontend. To create own themes, you should customize the output templates to your needs.
+You can create your own themes to use the layout you like in the OTRS web frontend. To create your own themes, you should customize the output templates to fit your needs.
 </para>
 
 <para>
-More information on the syntax and structure of output templates can be found in the Developer Manual at <ulink url="http://doc.otrs.org"><citetitle>http://doc.otrs.org</citetitle></ulink>, especialy in the chapter on
+More information on the syntax and structure of output templates can be found in the Developer Manual at <ulink url="http://doc.otrs.org"><citetitle>http://doc.otrs.org</citetitle></ulink>, particularly in the chapter on
 <ulink url="http://doc.otrs.org/developer/3.1/en/html/hacking.html#TemplatingMechanism"><citetitle>templates</citetitle></ulink>.
 </para>
 
 <para>
-As an example, perform the following steps to create a new theme called "Company":
+For example, perform the following steps to create a new theme called "Company":
 </para>
 
 <para>
 <orderedlist numeration="arabic">
     <listitem>
     <para>
-    Create a directory called <filename>Kernel/Output/HTML/Company</filename> and copy all files that you like to change, from <filename>Kernel/Output/HTML/Standard</filename> into the new folder.
+    Create a directory called <filename>Kernel/Output/HTML/Company</filename> and copy all files that you would like to change, from <filename>Kernel/Output/HTML/Standard</filename> into the new folder.
     </para>
     <important><para>
-        Only copy over the files you actually change. OTRS will automatically get the missing files from the Standard theme.
+        Only copy over the files that you actually change. OTRS will automatically get the missing files from the Standard theme.
     This will make upgrading at a later stage much easier.</para></important>
 </listitem>
 <listitem>
     <para>
-    Customize the files in the directory <filename>Kernel/Output/HTML/Company</filename>, and change the layout to your needs.
+    Customize the files in the directory <filename>Kernel/Output/HTML/Company</filename>, and change the layout to fit your needs.
     </para>
 </listitem>
 <listitem>
