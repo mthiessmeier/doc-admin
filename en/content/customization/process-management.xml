@@ -36,8 +36,8 @@ ISBN: 3527703713
         <section>
             <title>Approval by superior</title>
             <para>
-                The head of the employee's department needs to decide on the order. In case of a
-                denial, a reason should be recorded by the superior. In case of approval, the order
+                The head of the employee's department needs to decide on the order. In the event of a
+                denial, a reason should be recorded by the superior. In the event of an approval, the order
                 is passed to the purchasing department.
             </para>
         </section>
@@ -46,8 +46,8 @@ ISBN: 3527703713
             <title>Processing by purchasing department</title>
             <para>
                 Purchasing now has the task to find out where the book can be ordered with the best
-                conditions. If it is out of stock, this can be recorded in the order. In case of a
-                successful order purchasing will record the supplier, the price and the delivery
+                terms. If it is out of stock, this can be recorded in the order. In case of a
+                successful order, purchasing will record the supplier, the price, and the delivery
                 date.
             </para>
         </section>
@@ -55,9 +55,9 @@ ISBN: 3527703713
         <section>
             <title>Processing by the mail room</title>
             <para>
-                The shipment will arrive at the company. The incoming goods department checks the
+                The shipment arrives at the company. The incoming goods department checks the
                 shipment and records the date of receipt. Now the employee will be informed that
-                their order has arrived and is ready to be collected.
+                the order has arrived and is ready to be collected.
             </para>
         </section>
     </section>
@@ -68,7 +68,7 @@ ISBN: 3527703713
             receive change notes, we already have a clear picture of process tickets.
         </para>
         <para>
-            From the analysis of the example process we can identify the following necessary items:
+            From the analysis of the example process, we can identify the following necessary items:
         </para>
         <para>
             <itemizedlist>
@@ -108,7 +108,7 @@ ISBN: 3527703713
             </itemizedlist>
         </para>
         <para>
-            Now, with Activities, Activity Dialogs, Transitions and Transition Actions we have the
+            Now, with Activities, Activity Dialogs, Transitions, and Transition Actions, we have the
             necessary tools to model the individual steps of our example. What's still missing is an
             area where for each work-flow the order of the steps can be specified. Let's call this
             <emphasis>Process</emphasis>. To be able to refer to all these entities later, we will
@@ -495,11 +495,11 @@ ISBN: 3527703713
                     <emphasis>Figure: Edit field details (Article).</emphasis>
                 </para>
                 <para>
-                    After all fields are assigned click on the submit button in the main popup
+                    After all fields are assigned, click on the submit button in the main popup
                     screen to save the changes.
                 </para>
                 <para>
-                    In this example we will use Article field for comments, but another option could
+                    In this example, we will use Article field for comments, but another option could
                     be to create a TextArea type Dynamic Field, the rest of the mentioned fields
                     in the lines below are the Dynamic Fields that we define before.
                 </para>
@@ -518,7 +518,7 @@ ISBN: 3527703713
                         <para>
                             An Activity Dialog that contains all the required fields for the data
                             to be collected for the order (Title, Author and ISBN), and a Status
-                            field with the possibility to choose "Approval".
+                            field with the option to choose "Approval".
                         </para>
                     </listitem>
                     <listitem>
@@ -661,7 +661,7 @@ ISBN: 3527703713
                 </para>
                 <para>
                     In the opened popup screen fill the "Transition Name", then in the conditions,
-                    for this examples we will use just one condition and just one field, for both
+                    for this example we will use just one condition and just one field. For both
                     we can leave the Type of Linking as "and" and we will use the filed match type
                     value as "String".
                 </para>
@@ -675,7 +675,7 @@ ISBN: 3527703713
                     <emphasis>Figure: Add new Transition.</emphasis>
                 </para>
                 <para>
-                    After all conditions are set click on the submit button to save the changes.
+                    After all conditions are set, click on the submit button to save the changes.
                 </para>
                 <para>
                     Create the following Transitions:
